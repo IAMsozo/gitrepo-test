@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background: -webkit-gradient(linear, left top, right top, from(rgba( 150, 225, 46, 0.943)), to(rgba( 57, 172, 74, 0.943)));
+    background: linear-gradient(to right, rgba( 150, 225, 46, 0.943), rgba( 57, 172, 74, 0.943));
+    letter-spacing: .5em;
+}
+
+h1{
+    font: 600;
+    font-size: 3.5em;
+    font-family: fantasy;
+    width: 100%;
+    color: rgba( 0, 0, 0, 0.5 );
+    letter-spacing: .5em;
+    text-transform: uppercase;
+}
+
+span{
+    font-size: 0.5em;
+    letter-spacing: normal;
+    font-family: cursive;
+    display: block;
+    color: rgba( 224, 229, 214, 0.866 );
+}
+
+h2{
+    font: 900;
+    font-size: 1.5em;
+    font-family: cursive;
+    color: rgba( 0, 0, 0, 0.5 );
+    letter-spacing: .5em;
+    text-transform: uppercase;
+}
+
+h3{
+    letter-spacing: normal;
+    font-weight: 500;
+    font-family: monospace;
+}
+
+button.generator{
+    padding: 5px;
+    font-family: cursive;
+    background: rgba( 254, 222, 201, 0.912 );
+    transition: background 1s;
+}
+
+button.generator:hover{
+    background: rgba( 247, 248, 245, 0.913 )
+}
